@@ -1,5 +1,7 @@
 import React from "react";
 import image from "../../image/IMG_7565.JPG";
+import AddBreak from "../AddBreak/AddBreak";
+import Excercise from "../Excercise/Excercise";
 const ContainerSideBar = () => {
   return (
     <div className="sticky top-2">
@@ -27,6 +29,8 @@ const ContainerSideBar = () => {
             <small>years</small>
           </div>
         </div>
+        <AddBreak></AddBreak>
+        <Excercise></Excercise>
       </div>
     </div>
   );

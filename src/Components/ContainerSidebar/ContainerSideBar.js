@@ -1,8 +1,13 @@
-import React from "react";
 import image from "../../image/IMG_7565.JPG";
 import AddBreak from "../AddBreak/AddBreak";
 import Excercise from "../Excercise/Excercise";
-const ContainerSideBar = () => {
+const ContainerSideBar = ({time}) => {
+  // console.log(time)
+  let count = 0
+  for(const times of time){
+    // console.log(times)
+    count = count + times.time_req
+  }
   return (
     <div className="sticky top-2">
       <div>
@@ -30,7 +35,7 @@ const ContainerSideBar = () => {
           </div>
         </div>
         <AddBreak></AddBreak>
-        <Excercise></Excercise>
+        <Excercise count={count}></Excercise>
       </div>
     </div>
   );

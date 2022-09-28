@@ -37,7 +37,7 @@
       "description":"Playing a game for 90 minutes requires you to have great endurance combined with the ability to put in short bursts of maximum effort. Try a TABATA-style 20 second sprint combined with 10 second recovery and repeat several times to get the full benefit.",
       "_id": "632e8dbe8b4ff9d6befef444",
       "age": "20-20",
-      "time_req": "5min"
+      "time_req": 300
     },
     { 
       "name":"Plank",

@@ -1,0 +1,49 @@
+[
+    { 
+      "name":"Plank",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png",
+      "description":"This is a fantastic exercise for your core that can be done in loads of different ways, depending on what you want to achieve. You can also perform a plank at both high and low intensity levels.",
+      "_id": "632e8dbe8b4ff9d6befef428",
+      "age": "20-25",
+      "time_req": 300
+    },
+    { 
+      "name":"Squat",
+      "img": "https://static.strengthlevel.com/images/illustrations/squat-1000x1000.jpg",
+      "description":"To achieve the best results, use a heavy weight, with fewer reps to increase strength and muscle mass, or use lighter weights (or simply your body weight) with explosive plyometric movements to develop your power and speed.",
+      "age": "21-29",
+      "time_req": 120
+    },
+    { 
+      "name":"Box Jump",
+      "img": "https://movemoresitless.files.wordpress.com/2013/03/screen-shot-2013-03-23-at-7-02-06-pm.png",
+      "description":"This is a plyometric movement (i.e. a quick, movement that starts with a muscle engthening action, immediately followed by a muscle shortening one) that will help develop strength and power in your legs, specifically the hamstrings, glutes and quads.",
+      "age": "18-25",
+      "time_req": 180
+    },
+    { 
+      "name":"Bench Press",
+      "img": "https://cdn.mos.cms.futurecdn.net/pLaRi5jXSHDKu6WRydetBo-1200-80.jpg",
+      "description":"An exercise that’s key for building upper body strength. To perform this exercise properly, you’ll need to use an Olympic bar or dumbbells for better muscle recruitment.",
+      "_id": "632e8dbe8b4ff9d6befef428",
+      "age": "21-30",
+      "time_req":60 
+    },
+    { 
+      "name":"Treadmill Interval Sprints",
+      "img": "https://www.healthdigest.com/img/gallery/what-happens-to-your-body-when-you-use-the-treadmill-every-day/l-intro-1639425882.jpg",
+      "description":"Playing a game for 90 minutes requires you to have great endurance combined with the ability to put in short bursts of maximum effort. Try a TABATA-style 20 second sprint combined with 10 second recovery and repeat several times to get the full benefit.",
+      "_id": "632e8dbe8b4ff9d6befef428",
+      "age": "20-20",
+      "time_req": "5min"
+    },
+    { 
+      "name":"Plank",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png",
+      "description":"This is a fantastic exercise for your core that can be done in loads of different ways, depending on what you want to achieve. You can also perform a plank at both high and low intensity levels.",
+      "_id": "632e8dbe8b4ff9d6befef428",
+      "age": "14-infinity",
+      "time_req": 300
+    }
+    
+  ]

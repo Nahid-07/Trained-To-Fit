@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Card from '../ContainerCard/Card';
 import Nav from '../Nav/Nav';
 import ContainerSideBar from '../ContainerSidebar/ContainerSideBar';
-
+import Icon from '../../image/icon1.png'
 
 const Main = () => {
     const [cards,setCards]=useState([]);
@@ -24,8 +24,8 @@ const Main = () => {
             {/* aside left container start from here */}
             <aside className="main-container col-span-8">
                 <Nav></Nav>
-                <header className='flex justify-center items-center'>
-                    <h1 className='text-6xl my-10'><span className='text-orange-600 text-5xl font-semibold'>Train_</span><span className='text-amber-600 font-bold'>ToFit</span></h1>
+                <header className='flex justify-center items-center '>
+                    <img className='w-14 md:w-36 mr-2' src={Icon} alt="" /><h1 className='text-3xl md:text-6xl my-10'><span className='text-orange-600 text-5xl font-semibold'>Train_</span><span className='text-amber-600 font-bold'>ToFit</span></h1>
                 </header>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14'>
                 {

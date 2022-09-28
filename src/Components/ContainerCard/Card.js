@@ -1,5 +1,5 @@
 const Card = ({items}) => {
-    
+    // console.log(items)
     const {name,time_req,img,description,age} = items;
     return (
         <div className="border shadow-lg rounded mx-5">

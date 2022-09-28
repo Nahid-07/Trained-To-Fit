@@ -14,15 +14,15 @@ const ContainerSideBar = () => {
           <p>Address : 26/A Narinda</p>
         </div>
         <div className="flex justify-evenly mt-5 mx-3 border-4 border-slate-400 p-1">
-          <div className="bg-slate-400 p-5 rounded text-slate-50">
+          <div className="bg-slate-400 p-2 md:p-5 rounded text-slate-50">
             <span className="text-4xl font-bold ">52</span>
             <small>kg</small>
           </div>
-          <div className="bg-slate-400 p-5 rounded text-slate-50">
+          <div className="bg-slate-400 p-2 md:p-5 rounded text-slate-50">
             <span className="text-4xl font-bold ">5'6</span>
             <small>inch</small>
           </div>
-          <div className="bg-slate-400 p-5 rounded text-slate-50">
+          <div className="bg-slate-400 p-2 md:p-5 rounded text-slate-50">
             <span className="text-4xl font-bold ">24</span>
             <small>years</small>
           </div>

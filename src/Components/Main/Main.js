@@ -28,11 +28,11 @@ const Main = () => {
             {/* aside left container end from here */}
 
             {/* aside right container start from here */}
-            <aside className="details-container col-span-4 bg-slate-200">
+            <aside className="details-container col-span-4 bg-slate-200 mx-4 lg:mx-0">
                 <ContainerSideBar></ContainerSideBar>
             </aside>
             {/* aside right container end from here */}
-            
+
         </div>
     );
 };

@@ -13,7 +13,7 @@ const Excercise = ({count,seventy,sixty}) => {
                     <h4 className='text-xl text-gray-500'>Seconds</h4>
                 </div>
                 <div className='my-5 flex justify-center'>
-                <button className='bg-lime-800 text-white font-semibold text-lg w-9/12 mx-4 py-4 rounded-lg'>Activity Completed</button>
+                <button className='bg-lime-800 text-white font-semibold text-lg w-9/12 mx-4 mb-4 py-4 rounded-lg'>Activity Completed</button>
                 </div>
             </div>
         </div>

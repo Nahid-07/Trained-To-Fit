@@ -2,6 +2,8 @@ import { useState } from "react";
 import image from "../../image/IMG_7565.JPG";
 import AddBreak from "../AddBreak/AddBreak";
 import Excercise from "../Excercise/Excercise";
+import handle from "../LocalStorage/local";
+import addToDb from "../LocalStorage/local";
 const ContainerSideBar = ({time}) => {
   // console.log(time)
   let count = 0
@@ -13,7 +15,7 @@ const ContainerSideBar = ({time}) => {
   function addBreak(time){
       const newbreak = time;
       setBreaks(newbreak)
-
+      addToDb(time)
   }
   return (
     <div className="sticky top-2">

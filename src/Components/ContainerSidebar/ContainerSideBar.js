@@ -3,23 +3,21 @@ import image from "../../image/IMG_7565.JPG";
 import AddBreak from "../AddBreak/AddBreak";
 import Excercise from "../Excercise/Excercise";
 import addToDb from "../LocalStorage/local";
-const ContainerSideBar = ({time}) => {
-  // console.log(time)
-  let count = 0
-  for(const times of time){
-    // console.log(times)
-    count = count + times.time_req
+const ContainerSideBar = ({ time }) => {
+  let count = 0;
+  for (const times of time) {
+    count = count + times.time_req;
   }
-  const [breaks,setBreaks] = useState(0)
-  function addBreak(time){
-      const newbreak = time;
-      setBreaks(newbreak)
-      addToDb(time)
+  const [breaks, setBreaks] = useState(0);
+  function addBreak(time) {
+    const newbreak = time;
+    setBreaks(newbreak);
+    addToDb(time);
   }
-  useEffect(()=>{
-    const get = localStorage.getItem('breakTime')
-    setBreaks(get)
-  },[breaks])
+  useEffect(() => {
+    const get = localStorage.getItem("breakTime");
+    setBreaks(get);
+  }, [breaks]);
   return (
     <div className="sticky top-2">
       <div>

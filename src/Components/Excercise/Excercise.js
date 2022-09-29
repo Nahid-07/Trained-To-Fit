@@ -1,6 +1,9 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Excercise = ({count,seventy,sixty}) => {
+const Excercise = ({count}) => {
+    const notify = () => toast("Congratualtions Your Task is Completed");
     return (
         <div>
             <div className='mt-6'>
@@ -13,7 +16,8 @@ const Excercise = ({count,seventy,sixty}) => {
                     <h4 className='text-xl text-gray-500'>Seconds</h4>
                 </div>
                 <div className='my-5 flex justify-center'>
-                <button className='bg-lime-800 text-white font-semibold text-lg w-9/12 mx-4 mb-4 py-4 rounded-lg'>Activity Completed</button>
+                <button onClick={notify} className='bg-lime-800 text-white font-semibold text-lg w-9/12 mx-4 mb-4 py-4 rounded-lg'>Activity Completed</button>
+                <ToastContainer />
                 </div>
             </div>
         </div>

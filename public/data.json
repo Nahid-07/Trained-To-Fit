@@ -40,12 +40,36 @@
       "time_req": 300
     },
     { 
-      "name":"Plank",
-      "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png",
+      "name":"Bosu Squats",
+      "img": "https://s3.amazonaws.com/prod.skimble/assets/44034/skimble-workout-trainer-exercise-bosu-squats-2_iphone.jpg",
       "description":"This is a fantastic exercise for your core that can be done in loads of different ways, depending on what you want to achieve. You can also perform a plank at both high and low intensity levels.",
-      "_id": "632e8dbe8b4ff9d6befef44",
+      "_id": "632e8dbe8b4ff9d6befe4",
       "age": "14-infinity",
       "time_req": 300
+    },
+    { 
+      "name":"Bosu Squats",
+      "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/07/Female_Foam_Roll_1296x728-header-1296x729.jpg?w=1155&h=2268",
+      "description":"Using a foam roller both before and after exercise helps massage away knots and tightness in your muscles, which in turn helps prevent injuries and de-stresses the body so it can work more efficiently. It also increases flexibility, all aiding in the much-needed recovery and maintenance process to ensure peak performance throughout a long season.",
+      "_id": "632e8dbe8b4ff9d6befef4",
+      "age": "14-infinity",
+      "time_req": 500
+    },
+    { 
+      "name":"Yoga",
+      "img": "https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/13-peacock-pose--Animal-Poses.jpg?itok=ehrv18pZ",
+      "description":"Sometimes getting excited students to take a break and enjoy nature can be a daunting task. With Garden Yoga partner students up and let them choose a spot outside and enjoy the calmness for a bit!",
+      "_id": "632e8be8b4ff9d6beef4",
+      "age": "20-28",
+      "time_req": 500
+    },
+    { 
+      "name":"Chin up",
+      "img": "https://media.istockphoto.com/photos/man-working-out-in-a-gym-doing-pullups-picture-id1294921421?k=20&m=1294921421&s=612x612&w=0&h=FiauMxH5GYQlOr32xruoU84ofYbFavUONSyB6pcR0UQ=",
+      "description":"Do It: Standing on a box or bench, grab the bar with an underhand grip, then jump up so that your chin touches it (a). Pause, then lower yourself as slowly as possible, aiming for about five to 10 seconds (b). Once your arms are fully extended, let go of the bar and step back onto the box.",
+      "_id": "632e8dbe8b4ff9d6beef4",
+      "age": "20-28",
+      "time_req": 500
     }
     
   ]

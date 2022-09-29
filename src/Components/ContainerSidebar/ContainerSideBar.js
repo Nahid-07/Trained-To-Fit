@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import image from "../../image/IMG_7565.JPG";
 import AddBreak from "../AddBreak/AddBreak";
 import Excercise from "../Excercise/Excercise";
-import handle from "../LocalStorage/local";
 import addToDb from "../LocalStorage/local";
 const ContainerSideBar = ({time}) => {
   // console.log(time)
@@ -17,6 +16,10 @@ const ContainerSideBar = ({time}) => {
       setBreaks(newbreak)
       addToDb(time)
   }
+  useEffect(()=>{
+    const get = localStorage.getItem('breakTime')
+    setBreaks(get)
+  },[breaks])
   return (
     <div className="sticky top-2">
       <div>

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import image from "../../image/IMG_7565.JPG";
 import AddBreak from "../AddBreak/AddBreak";
 import Excercise from "../Excercise/Excercise";
@@ -7,6 +8,12 @@ const ContainerSideBar = ({time}) => {
   for(const times of time){
     // console.log(times)
     count = count + times.time_req
+  }
+  const [breaks,setBreaks] = useState(0)
+  function addBreak(time){
+      const newbreak = time;
+      setBreaks(newbreak)
+
   }
   return (
     <div className="sticky top-2">
@@ -34,8 +41,8 @@ const ContainerSideBar = ({time}) => {
             <small>years</small>
           </div>
         </div>
-        <AddBreak></AddBreak>
-        <Excercise count={count}></Excercise>
+        <AddBreak btnTimer={addBreak}></AddBreak>
+        <Excercise count={count} breaks={breaks}></Excercise>
       </div>
     </div>
   );
